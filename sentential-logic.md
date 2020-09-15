@@ -14,7 +14,9 @@
 - 예를 들어 3번 문항에서 "나는 오늘 아니면 내일 일한다." 와 "나는 오늘 집에 있을 것이다." 는 premises 이고 "그러므로 나는 내일 일할 것이다." 는 conclusion.
 - conclusion이 true 라는 보장은 없다. conclusion은 premises중 하나라도 false 이어야만 false 가 될 수 있다. 모든 premise들이 true라면 conclusion 역시 true 일 것이다. 왜냐하면 premise들에 의해 conclusion이 결정되기 때문이다.
 - argument가 올바르다고 말하려면 premises와 conclusion 사이에 인과가 있어야 한다. 다시 말해, premises가 전부 true일 때 conclusion이 false가 될 수 있다면 그 argument는 올바르지 않다.
+
 ---
+
 $P$ or $Q$.
 
 not $Q$.
