@@ -41,3 +41,16 @@ $\lnot$| not
 이때 애매함을 없애기 위해 연산자 우선순위를 고려해야 할 수 있는데, 먼저 $\lnot$ 은 항상 바로 뒤에 오는 statement 에만 먼저 apply된다. 즉 $\lnot P \land Q$ 는 $(\lnot P) \land Q$ 이지, $\lnot (P \land Q)$ 가 아니다.
 
 하지만 이 연산자들이 일상언어의 그것과 항상 대응되지는 않는다. "나와 너는 함께 있다" 라는 statement를 $나 \land 너$ 라고 표현할 수 없다는 말이다. 이 연산자들은 statement에만 적용될 수 있다.
+
+수학적 표기법에서도 이러한 connective들을 찾아볼 수 있는데, 예를 들어서 $3 \leq \pi$ 와 같은 statement가 있을 때, $P$를 $3 \lt \pi$ 라 하고 $Q$를 $3 = \pi$ 라 하면 statement를 $P \lor Q$ 처럼 나타낼 수 있다.
+
+### Truth Tables
+
+$P$, $Q$ 가 있을 때 formula $P \lor Q$ 를 표로 나타내어 보면
+
+$P$ | $Q$ | $P \lor Q$
+----|-----|-----
+$F$ | $F$ | $F$
+$F$ | $T$ | $T$
+$T$ | $F$ | $T$
+$T$ | $T$ | $T$
